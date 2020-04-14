@@ -1,1 +1,6 @@
+## Config
+docker-compose.yml
+
+## Folders
 files/*
+!files/.gitkeep
