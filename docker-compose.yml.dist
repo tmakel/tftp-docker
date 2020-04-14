@@ -4,7 +4,7 @@ services:
   server:
     image: taskinen/tftp
     ports:
-      - "127.0.0.1:69:69/udp"
+      - "0.0.0.0:69:69/udp"
     volumes:
       - ./files:/var/tftpboot:ro
     restart: unless-stopped
