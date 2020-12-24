@@ -7,4 +7,3 @@ services:
       - "0.0.0.0:69:69/udp"
     volumes:
       - ./files:/var/tftpboot:ro
-    restart: unless-stopped
